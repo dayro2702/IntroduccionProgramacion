@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empleo</title>
+</head>
+<body>
+    <form action="">
+        <h2>Formulario de Empleo</h2>
+
+        <label for="nombres">Nombres: </label>
+        <input type="text" id="nombres" name="nombres" required>
+        <br><br>
+        <label for="apellidos">Apellidos: </label>
+        <input type="text" id="apellidos" name="apellidos" required>
+        <br><br>
+        <label for="correo">Correo electronico: </label>
+        <input type="text" id="correo" name="correo" required>
+        <br><br>
+        <label for="disponibilidad">Fecha disponibilidad: </label>
+        <input type="date" id="disponibilidad" name="disponibilidad">
+        <br><br>
+        <label for="nivel">Nivel de Estuidos: </label>
+        <select name="nivel" id="nivel">
+            <option value="">--SELECCIONE UNA OPCION--</option>
+            <option value="PR">Primaria</option>
+            <option value="SE">Secundaria</option>
+            <option value="TECL">Tecnico Laboral</option>
+            <option value="TECP">Tecnico Profecional</option>
+            <option value="TEN">Tecnologo</option>
+            <option value="PR">Profesional</option>
+        </select>
+        <br><br>
+        <label for="experiencia">Años de experiencia: </label>
+        <input type="number" id="experiencia" name="experiencia" min="0" max="50">
+        <br><br>
+        <p>Seleccione lenguaje de programacion: </p>
+        <input type="checkbox" id="lenguaje" name="lenguaje">
+        <label for="lenguaje">Phyton</label>
+        <input type="checkbox" id="lenguaje" name="lenguaje">
+        <label for="lenguaje">Java</label>
+        <input type="checkbox" id="lenguaje" name="lenguaje">
+        <label for="lenguaje">JavaScript</label>
+        <br><br>
+         <label for="mensaje">Carta de presentacion: </label>
+        <br>
+        <textarea name="mensaje" id="mensaje" rows="8" cols="50" placeholder="Escribe aqui..."></textarea>
+        <br><br>
+        <button type="submit">Enviar Formulario</button>
+        <button type="reset">Limpiar Formulario</button>
+    </form>
+</body>
+</html>
