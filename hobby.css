@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(174, 236, 174);
+    border: 10px solid green; 
+    padding: 20px;
+     font-family: "Nunito", sans-serif;
+     color: black;
+}
+
+h1 {
+    color: black;
+    font-size: 60px;
+    border: 5px solid green;
+}
+
+.caja-nav {
+    width: 16%;
+    background-color: aliceblue;
+    border: 5px solid green;
+    padding: 19px;
+}
+
+.caja-pasatiempo {
+    width: 26.5%;
+    background-color: aliceblue;
+    border: 5px solid green;
+    padding: 19px;
+}
+
+.caja-canciones {
+    width: 16%;
+    background-color: aliceblue;
+    border: 5px solid green;
+    padding: 19px;
+}
+
+.caja-tabla {
+    width: 39.5%;
+    background-color: aliceblue;
+    border: 5px solid green;
+    padding: 19px;
+}
+
+.th {
+    background-color: forestgreen;
+}
+
+.td {
+    background-color: rgb(142, 221, 142);  
+}
+
+
+.form {
+    color: green;
+}
+
+.cuadro {
+    background-color: rgb(210, 245, 210);
+}
