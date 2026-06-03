@@ -1,0 +1,44 @@
+* {
+ font-size: 1.2rem;   
+}
+
+body {
+    background-color: #4fbb25;
+}
+
+p {
+    color: white;
+}
+
+.style-p {
+    color: rgb(223, 94, 8);
+}
+
+h1 {
+    color: rgb(95, 89, 89);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/*Selector de clase*/
+.titulo-secundario {
+    color: brown;
+    text-decoration: underline;
+}
+.test {
+    font-family: cursive;
+}
+
+/* Selector de ID */
+#parrafo-unico {
+    color: aqua;
+    background-color: blue; /*background-color (Fondo)*/
+}
+
+.caja-modelo {
+    width: 50%;
+    background-color: coral;
+    border: 5px solid black;
+    padding: 20px; /*paddin (Espacio hacia dentro de la caja)*/
+    margin: 4px 10px 40px 10px; /*margin (Espacio hacia fuera de la caja)*/
+    border-radius: 20px;
+}

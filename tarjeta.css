@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(70, 143, 70);
+    border: 15px solid white; 
+    padding: 280px;
+}
+
+h1 {
+    position: absolute;
+    color: blanchedalmond;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    top: 10px;
+    right: 220px;
+}
+
+.caja-modelo {
+    position: absolute;
+    width: 31.5%;
+    background-color: rgb(10, 10, 10);
+    border: 5px solid rgb(20, 80, 17);
+    padding: 20px;
+    left: 60px;
+    top: 60px;
+}
+
+.parrafo-unico {
+    color: blanchedalmond;
+    font-size: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    right: 195px;
+    position: absolute;
+    top: 110px;
+}
+
+h2 {
+    color: blanchedalmond;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    right: 430px;
+    position: absolute;
+    top: 140px;
+}
+
+.caja-titulos {
+    width: 31.5%;
+    background-color: rgb(2, 2, 2);
+    border: 5px solid rgb(20, 80, 17);
+    padding: 20px;
+    position: absolute;
+    right: 185px;
+    top: 220px;
+}
+
+li {
+    color: blanchedalmond;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.frase {
+    color: blanchedalmond;
+    font-size: 30px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    position: absolute;
+    left: 60px;
+    top: 380px;
+}

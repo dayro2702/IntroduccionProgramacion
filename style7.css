@@ -1,0 +1,44 @@
+.boton-whatsaap { /*El . es una clase*/
+    position: fixed; /*Se queda fija asi subamos o bajemos, siempre se va a ver*/
+    bottom: 20px; /*que se coloque en la parte de abajo*/
+    right: 20px;
+    background-color: rgb(32, 201, 32);
+    color: white;
+    padding: 15px; /*El relleno que hay hacia dentro de la cajita*/
+    border-radius: 50px; 
+}
+
+.caja-relativa {
+    /*position: relative;*/
+    width: 300px;
+    height: 300px;
+    background-color: aquamarine;
+    margin-bottom: 50px; /*Espacio hacia abajo de la caja, margin solo, es un espacio para todos los lados de la caja*/
+}
+
+.caja-absoluta {
+    position: absolute;
+    top: 10px; /*que se coloque en la parte de arriba*/
+    right: 10px;
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+
+.caja {
+    background-color: yellowgreen;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    border: 2px solid green;
+}
+
+.contenedor-flex {
+    background-color: rgb(230, 124, 48);
+    height: 150px;
+    display: flex; /*Cambia las propiedades de la visualizacion*/
+    justify-content: center; /*Controlar la ubicacion de los elemntos en el eje X (Horizontal)*/
+    align-items: center; /*Controlar la ubicacion de los elemntos en el eje Y (Vertical)*/
+    gap: 20px; /*Espacio entre las cajas, espacio que no aplica margenes*/
+    flex-wrap: wrap; /*agrega un salto de linea y coloca lo demas*/
+}
