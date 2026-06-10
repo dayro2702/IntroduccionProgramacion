@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enlaces HTML</title>
+    <link rel="stylesheet" href="style10.css">
+</head>
+<body>
+    <a href="index9.html" class="boton">Ir a la pagina de Animacion</a>
+
+    <button id="miBoton" class="boton">Ir a otra pagina</button>
+
+    <nav>
+        <ul>
+            <li><a href="index7.html" class="boton">Index7</a></li><br>
+            <li><a href="index8.html" class="boton">Index8</a></li><br>
+            <li><a href="index9.html" class="boton">index9</a></li><br>
+        </ul>
+    </nav>
+
+    <script>
+        document.getElementById("miBoton").addEventListener("click", function () {
+            window.location.href = "index9.html";
+        });
+    </script>
+</body>
+</html>
